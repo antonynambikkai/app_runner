@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_antonynambikkai_app_runner_1707341609728-push-trigger-input-set
+  identifier: Build_antonynambikkai_app_runner_1707341609728pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_antonynambikkai_app_runner_1707341609728
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
